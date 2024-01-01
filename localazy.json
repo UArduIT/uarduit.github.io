@@ -1,0 +1,10 @@
+{
+  "download": {
+    "metadataFileJson": "meta.json",
+    "includeSourceLang": true,
+    "folder": "languages",
+    "files": {
+      "output": "${lang}/${file}"
+    }
+  }
+}

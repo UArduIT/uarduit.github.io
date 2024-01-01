@@ -1,0 +1,21 @@
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# other
+jsconfig.json
+.vscode
+.idea
+
+# node.js
+#
+*.log
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+*.keys.json
