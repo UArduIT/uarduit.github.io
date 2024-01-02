@@ -1,1 +1,1 @@
-include: [".well-known", ".htaccess"]
+include: [".well-known"]

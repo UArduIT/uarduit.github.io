@@ -1,3 +1,0 @@
-<FilesMatch "apple-app-site-association">
-  Header set Content-Type "application/json"
-</FilesMatch>
