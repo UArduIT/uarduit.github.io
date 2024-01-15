@@ -4,7 +4,7 @@
     "includeSourceLang": true,
     "folder": "languages",
     "files": {
-      "output": "${lang}/${file}"
+      "output": "${languageCode}-${regionCode}/${file}"
     }
   }
 }
