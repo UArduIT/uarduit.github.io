@@ -1,4 +1,0 @@
-plugins:
-  - set_mime_type
-
-include: [".well-known"]
