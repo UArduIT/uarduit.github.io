@@ -1,3 +1,7 @@
+---
+mime_type: application/json
+---
+
 {
   "applinks": {
     "apps": [],
