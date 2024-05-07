@@ -1,5 +1,5 @@
-module Jekyll
-  class SetMimeType < Generator
+module SamplePlugin
+  class SetMimeType < Jekyll::Generator
     def generate(site)
       site.static_files.each do |file|
         if File.extname(file.path).empty?

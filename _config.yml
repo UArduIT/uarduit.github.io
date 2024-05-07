@@ -1,4 +1,5 @@
 plugins:
   - set_mime_type
+  - jekyll-relative-links
 
 include: [".well-known"]
