@@ -1,9 +1,9 @@
-module SamplePlugin
-  class SetMimeType < Jekyll::Generator
+module SetMimeType
+  class Generator < Jekyll::Generator
     def generate(site)
       site.static_files.each do |file|
         if File.extname(file.path).empty?
-          file.data['mime_type'] = 'application/json'
+          file.data['Content-Type'] = 'application/json'
         end
       end
     end
